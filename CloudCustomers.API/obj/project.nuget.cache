@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "zIpYp/ch1iNMvjh7ncR2aVupTYV/mKhCS7Wwt1AC843HJdB5Ae1oOuP+wKuDbvUyO85aM1nzgcNxx8TsBAXF4w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\kosta\\programming\\CloudCustomers\\CloudCustomers.API\\CloudCustomers.API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kosta\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\kosta\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\kosta\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\kosta\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\kosta\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\kosta\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}
