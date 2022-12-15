@@ -4,14 +4,14 @@
     "C:\\Users\\kosta\\programming\\CloudCustomers\\CloudCustomers.UnitTests\\CloudCustomers.UnitTests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kosta\\programming\\CloudCustomers\\CloudCustomers.UnitTests\\CloudCustomers.UnitTests.csproj": {
+    "C:\\Users\\kosta\\programming\\CloudCustomers\\CloudCustomers.API\\CloudCustomers.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kosta\\programming\\CloudCustomers\\CloudCustomers.UnitTests\\CloudCustomers.UnitTests.csproj",
-        "projectName": "CloudCustomers.UnitTests",
-        "projectPath": "C:\\Users\\kosta\\programming\\CloudCustomers\\CloudCustomers.UnitTests\\CloudCustomers.UnitTests.csproj",
+        "projectUniqueName": "C:\\Users\\kosta\\programming\\CloudCustomers\\CloudCustomers.API\\CloudCustomers.API.csproj",
+        "projectName": "CloudCustomers.API",
+        "projectPath": "C:\\Users\\kosta\\programming\\CloudCustomers\\CloudCustomers.API\\CloudCustomers.API.csproj",
         "packagesPath": "C:\\Users\\kosta\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kosta\\programming\\CloudCustomers\\CloudCustomers.UnitTests\\obj\\",
+        "outputPath": "C:\\Users\\kosta\\programming\\CloudCustomers\\CloudCustomers.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kosta\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -38,9 +38,87 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\kosta\\programming\\CloudCustomers\\CloudCustomers.UnitTests\\CloudCustomers.UnitTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\kosta\\programming\\CloudCustomers\\CloudCustomers.UnitTests\\CloudCustomers.UnitTests.csproj",
+        "projectName": "CloudCustomers.UnitTests",
+        "projectPath": "C:\\Users\\kosta\\programming\\CloudCustomers\\CloudCustomers.UnitTests\\CloudCustomers.UnitTests.csproj",
+        "packagesPath": "C:\\Users\\kosta\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kosta\\programming\\CloudCustomers\\CloudCustomers.UnitTests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\kosta\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\kosta\\programming\\CloudCustomers\\CloudCustomers.API\\CloudCustomers.API.csproj": {
+                "projectPath": "C:\\Users\\kosta\\programming\\CloudCustomers\\CloudCustomers.API\\CloudCustomers.API.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[6.8.0, )"
+            },
+            "Microsoft.AspNet.Mvc": {
+              "target": "Package",
+              "version": "[5.2.9, )"
+            },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[17.1.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.18.3, )"
             },
             "coverlet.collector": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
