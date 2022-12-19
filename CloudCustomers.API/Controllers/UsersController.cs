@@ -6,15 +6,26 @@ namespace CloudCustomers.API.Controllers;
 [Route("[controller]")]
 public class UsersController : ControllerBase
 {
-    // private readonly ILogger<UsersController> _logger;
+	private readonly IUsersService _usersService;
 
-    public UsersController()
+	// private readonly ILogger<UsersController> _logger;
+
+	public UsersController(IUsersService usersService)
     {
+		_usersService = usersService;
     }
 
     [HttpGet(Name = "GetUsers")]
     public async Task<IActionResult> Get()
     {
-		return null;
+		var users = await _usersService.GetAllUsers();
+		
+		
+		if (users.Any()) 
+		{
+			return Ok(users);
+		};
+
+		return NotFound();
     }
 }
