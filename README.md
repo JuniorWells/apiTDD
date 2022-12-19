@@ -1,2 +1,1 @@
-Built an API using TDD 
-Educational project.
+Project : Build an API using TDD 
